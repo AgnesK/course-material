@@ -7,4 +7,5 @@ Created on Mon Sep 22 11:55:33 2014
 str = "abcdefghijklmnopqrstuvwxyz"
 for i in str:
     for j in str:
-        print(i + j)
+        if i != j:
+            print(i + j + "\n")

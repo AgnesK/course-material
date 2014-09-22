@@ -4,6 +4,8 @@ Created on Mon Sep 22 11:55:33 2014
 
 @author: Agnes
 """
-for i in range(99):
-    if i % 2 == 0:
-        print(i)
+import sys
+text = sys.argv
+text = enumerate(text)
+for i, j in text:
+    print(i, j)
