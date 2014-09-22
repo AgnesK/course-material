@@ -5,11 +5,12 @@ Created on Mon Sep 22 18:28:45 2014
 @author: Agnes
 """
 import is_prime
-var = 100000000
-b = False
-while not b:
-    if not is_prime.is_prime(var):
-        var = var + 1
+var = 14
+b = True
+while b:
+    print(is_prime.is_prime(var))
+    if is_prime.is_prime(var):
+        b = False
     else:
-        b = True
+        var = var + 1
 print(var)
