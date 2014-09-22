@@ -9,8 +9,10 @@ b = 2
 text = str(a) + ', ' + str(b)
 end = 8
 for i in range(end):
+    var = a + b
     if i != end:
-        text = str(text) + str(a + b) + ', '
-    else:
-        text = str(text) + str(a + b) + '.'
+        text = str(text) + ', ' + str(var)
+        a = b
+        b = var
+text = str(text) + '.'
 print(str(text))
