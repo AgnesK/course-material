@@ -8,4 +8,4 @@ str = "abcdefghijklmnopqrstuvwxyz"
 for i in str:
     for j in str:
         if i != j:
-            print(i + j + "\n")
+            print(i + j)

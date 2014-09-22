@@ -10,4 +10,4 @@ for i in str:
     count = count + 1
     for j in str[count:]:
         if i != j:
-            print(i + j + "\n")
+            print(i + j)
