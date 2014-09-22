@@ -11,10 +11,5 @@ station = {
  'name': 'CHAMPEAUX (BAGNOLET)',
  'longitude': 2.416170724425901
 }
-for i in station:
-    a = i
-    b = station[i]
-    c = a + b
-    print(c)
-    # print(i)
-    # print(station[i])
+for i, j in station.items():
+    print(i, j)
